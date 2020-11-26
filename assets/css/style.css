@@ -238,6 +238,7 @@ header nav ul li a {
 .contact-info iframe {
     width: 400px;
     height: 400px;
+    border: 0;
 }
 
 .contact-info div {
