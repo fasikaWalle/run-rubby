@@ -11,4 +11,4 @@ A website that offers fitness training services.
 https://fasikaWalle.github.io/run-buddy/
 
 ## Contribution
-Made with ❤️ by fasika Demelash
+Made with ❤️ by fasika Walle
