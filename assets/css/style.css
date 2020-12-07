@@ -16,8 +16,14 @@ section {
 /*-------------header---------------*/
 
 header {
-  padding: 20px 35px;
-  background-color: #39a6b2;
+  background-image: url('images/hero-bg.jpg');
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+header .main-nav {
+  padding: 30px 35px;
 }
 
 header h1 {
@@ -47,13 +53,25 @@ header nav ul li a {
   font-weight: lighter;
   font-size: 22px;
 }
-/*---------hero section--------------*/
-.hero {
-  background-image: url('images/hero-bg.jpg');
-  height: 600px;
-  background-size: cover;
-  background-position: center;
+
+header .hero-cta {
   position: relative;
+  top: 15%;
+  left: 20%;
+  width: 30%;
+}
+header .hero-cta h2 {
+  color: #fce138;
+  font-size: 48px;
+  text-align: right;
+}
+header .hero-cta span {
+  display: block;
+}
+header .hero-cta p {
+  color: #fff;
+  text-align: justify;
+  line-height: 1.8;
 }
 .hero-form {
   background-color: #fce138;
@@ -101,7 +119,7 @@ header nav ul li a {
   font-size: 16px;
 }
 
-/*-------------header---------------*/
+/*-------------what we do " section---------------*/
 
 .intro {
   text-align: center;
