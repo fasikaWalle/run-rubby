@@ -15,4 +15,4 @@ https://fasikaWalle.github.io/run-buddy/
 
 ## Contribution
 
-Made with ❤️ by fasika wDemelash
+Made with ❤️ by fasika Demelash
