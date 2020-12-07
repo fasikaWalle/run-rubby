@@ -84,7 +84,25 @@ header nav ul li a {
   color: #024e76;
   border: solid 3px #024e76;
 }
+.form-input {
+  border: 1px solid #024e76;
+  display: block;
+  padding: 7px 15px;
+  font-size: 16px;
+  color: #024e76;
+  margin-bottom: 15px;
+}
+.hero-form label {
+  margin: 0 5px;
+}
 
+.hero-form button {
+  color: #fce138;
+  background-color: #024e76;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+}
 .hero-form p {
   margin: 5px 0 15px 0;
 }
@@ -99,10 +117,6 @@ header nav ul li a {
 }
 
 /*-------------what we do " section---------------*/
-
-.intro {
-}
-
 .intro p {
   line-height: 1.7;
   color: #39a6b2;
@@ -185,7 +199,7 @@ header nav ul li a {
   justify-content: space-around;
 }
 .trainer {
-  margin: 0 auto 30px auto;
+  margin: 0 40px 30px auto;
   background: #024e76;
   color: #fce138;
   flex: 1;
@@ -230,13 +244,18 @@ header nav ul li a {
 .contact h2 {
   color: #fce138;
 }
-
+.contact-info {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+}
 .contact-info div {
-  display: inline-block;
-  vertical-align: top;
-  text-align: left;
-  margin: 30px 0 0 20px;
   color: white;
+}
+.contact-info > * {
+  /*select all direct child elements inside contact-info*/
+  flex: 1;
+  margin: 15px;
 }
 
 .contact-info h3 {
@@ -248,38 +267,16 @@ header nav ul li a {
 .contact-info address {
   margin: 20px 0;
   line-height: 1.5;
-  font-size: 20px;
   font-style: normal;
+  font-size: 16px;
 }
 
 .contact-info a {
   color: #fce138;
 }
 .contact-info iframe {
-  width: 400px;
   height: 400px;
   border: 0;
-  margin-top: 30px;
-}
-.form-input {
-  border: 1px solid #024e76;
-  display: block;
-  padding: 7px 15px;
-  font-size: 16px;
-  color: #024e76;
-  margin-bottom: 15px;
-}
-
-.hero-form label {
-  margin: 0 5px;
-}
-
-.hero-form button {
-  color: #fce138;
-  background-color: #024e76;
-  border: none;
-  padding: 10px 20px;
-  font-size: 16px;
 }
 
 .contact-form {
@@ -288,23 +285,24 @@ header nav ul li a {
 }
 .contact-form input,
 .contact-form textarea {
+  border: 1px solid #024e76;
   display: block;
-  margin-bottom: 10px;
-  width: 100%;
-  border-radius: 10px;
+  padding: 7px 15px;
+  margin-bottom: 15px;
   font-size: 16px;
+  color: #024e76;
+  width: 100%;
+  margin-top: 5px;
 }
-.contact-form input[type='text'] {
-  padding: 10px 10px;
-  background-color: #cdedfe;
-}
-.contact-form textarea {
-  padding: 30px 10px;
-  background-color: #cdedfe;
-}
-.contact-form input[type='button'] {
-  padding: 20px 0;
+
+.contact-form button {
+  width: 100%;
+  border: none;
   background-color: #fce138;
+  padding: 15px 0;
+  color: #024e76;
+  text-align: center;
+  font-size: 16px;
 }
 
 /*-------------footer---------------*/
