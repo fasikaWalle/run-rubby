@@ -38,8 +38,100 @@
   }
 }
 
-@media screen and(max-width:768px) {
+@media screen and (max-width: 768px) {
+  section {
+    padding: 30px 15px;
+  }
+  .step h3 {
+    flex: 1 100%;
+    text-align: center;
+  }
+  .step-info {
+    flex: 2 100%;
+    text-align: center;
+    justify-content: center;
+  }
+  .step-img {
+    flex: 0 32%;
+    margin-right: 20px;
+  }
+  .step-text {
+    flex: 100%;
+  }
 }
 
 @media screen and (max-width: 575px) {
+  .hero-form {
+    width: 80%;
+  }
+
+  .hero-form button {
+    width: 100%;
+  }
+  .section-title {
+    width: 95%;
+  }
+  .intro p {
+    width: 100%;
+  }
+  .trainer {
+    flex: 0 80%;
+  }
+  .contact-info {
+    text-align: center;
+  }
+  .contact-info > * {
+    flex: 0 100%;
+    text-align: left;
+  }
+  .hero-cta h2 {
+    text-align: center;
+    margin-top: 30px;
+  }
+  .hero-cta p {
+    width: 80%;
+    margin: 0 auto;
+    line-height: 1.5;
+    margin-bottom: 30px;
+  }
+  .section-title {
+    width: 70%;
+  }
+  .intro p {
+    width: 70%;
+    margin: 0 auto;
+  }
+  .step h3 {
+    margin-bottom: 20px;
+  }
+  .step-img {
+    margin-bottom: 20px;
+  }
+  .primary-border {
+    width: 80%;
+  }
+  .contact-form {
+    order: 3;
+  }
+  .contact-form form {
+    width: 70%;
+    margin: 0 auto;
+  }
+  .form-input {
+    width: 100%;
+  }
+
+  .contact-info h3 {
+    margin: 0 0 10px 75px;
+  }
+  .contact-form label {
+    display: none;
+  }
+  footer {
+    background-color: #fce138;
+    color: #024e76;
+  }
+  
+footer a {
+  color: #024e76;
 }
