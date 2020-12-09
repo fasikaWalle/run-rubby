@@ -42,6 +42,7 @@
   section {
     padding: 30px 15px;
   }
+
   .step h3 {
     flex: 1 100%;
     text-align: center;
@@ -57,6 +58,24 @@
   }
   .step-text {
     flex: 100%;
+  }
+  .service-grid-container {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .service-grid-item.basic {
+    grid-column: 1;
+  }
+
+  .service-grid-item.both {
+    grid-column: 1 / -1;
+  }
+
+  .service-grid-item.cancel {
+    transform: none;
+    writing-mode: unset;
+    grid-column: 1 / -1;
+    grid-row: -1;
   }
 }
 
@@ -131,7 +150,11 @@
     background-color: #fce138;
     color: #024e76;
   }
-  
-footer a {
-  color: #024e76;
+
+  footer a {
+    color: #024e76;
+  }
+  .service-grid-item {
+    padding: 10px 0;
+  }
 }
